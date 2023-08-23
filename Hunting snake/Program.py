@@ -80,7 +80,7 @@ while running:
 
 	# Draw game over
 	if pausing:
-		game_over_txt = font_big.render("Game over, score: " + str(score), True, WHITE)
+		game_over_txt = font_big.render("Game over, \nscore: " + str(score), True, WHITE)
 		press_space_txt = font_big.render("Press Space to continue", True, WHITE)
 		screen.blit(game_over_txt, (50,200))
 		screen.blit(press_space_txt, (50,300))
